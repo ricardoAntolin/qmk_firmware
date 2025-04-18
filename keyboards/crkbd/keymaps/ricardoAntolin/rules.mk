@@ -1,0 +1,6 @@
+VIA_ENABLE         = yes
+ENCODER_MAP_ENABLE = yes
+RGBLIGHT_ENABLE    = no
+RGB_MATRIX_ENABLE  = yes
+CAPS_WORD_ENABLE   = yes
+COMMAND_ENABLE     = no
