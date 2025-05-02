@@ -42,7 +42,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   //|--------+--------+--------+--------+--------+--------+--------'  `--------+--------+--------+--------+--------+--------+--------|
       LCTL(KC_A), KC_Z,    KC_X,    KC_C,    KC_V,    KC_B,                         KC_N,    KC_M, KC_COMM,  KC_DOT, KC_MINS, KC_SLSH,
   //|--------+--------+--------+--------+--------+--------+--------.  ,--------+--------+--------+--------+--------+--------+--------|
-                                          MO(_NUM), KC_ESC, NAV_SPC,    SYM_ENT, KC_BSPC,  KC_MEH
+                                          MO(_NUM), KC_SPC, NAV_ESC,    SYM_ENT, KC_BSPC,  KC_MEH
                                       //`--------------------------'  `--------------------------'
     ),
     [_NUM] = LAYOUT_split_3x6_3_ex2(
@@ -57,7 +57,6 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
                                       //`--------------------------'  `--------------------------'
     ),
     [_MED] = LAYOUT_split_3x6_3_ex2(
-    // <deflayer med>
   //,--------------------------------------------------------------.  ,--------------------------------------------------------------.
       XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,    XXXXXXX, XXXXXXX, XXXXXXX, KC_MNXT, KC_MPRV, XXXXXXX, XXXXXXX,
   //|--------+--------+--------+--------+--------+--------+--------|  |--------+--------+--------+--------+--------+--------+--------|
